@@ -6,13 +6,15 @@ import NavigationListItem from '../navigation-list-item';
 const NavigationList = ({ navItems }) => {
 
   return (
-    <ul className="navigation-list">
-      {
-        navItems.map((item) => {
-        return <NavigationListItem item = {item} key = {item.label} />;
-      })
-      }
-    </ul>
+    <div className="navigation-list">
+      <ul>
+        {
+          navItems.map((item) => {
+          return <NavigationListItem item = {item} key = {item.label} />;
+        })
+        }
+      </ul>
+    </div>
   );
 }
 export default NavigationList;
