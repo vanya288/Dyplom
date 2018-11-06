@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../shared-components/header';
+import Header from '../../shared-components/header';
 import Choice from './choice';
 import Footer from './footer';
 
