@@ -1,0 +1,53 @@
+.choice {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 32rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s ease;
+  align-self: center;
+  border-radius: 0.3rem;
+  z-index: 2;
+}
+
+.shadow {
+  background-image: url("../../../../assets/shadow.jpg");
+  filter: blur(60px);
+  height: 5rem;
+  width: 100%;
+  margin-top: 34rem;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+  .item:hover .item-label {
+    font-size: 5rem;
+    background-color: rgba(10, 10, 10, 0.6);
+  }
+
+.item-label {
+  position: absolute;
+  height: 5rem;
+  color: white;
+  font-size: 4rem;
+  z-index: 3;
+  border-radius: 0.3rem;
+  padding: 0rem 1rem 1rem 1.5rem;
+  transition: 0.2s ease; }
+
+.food {
+  background-image: url("../../../../assets/food3.jpg");
+  margin-left: 6rem; }
+
+.restaurant {
+  background-image: url("../../../../assets/restaurant1.jpg");
+}
