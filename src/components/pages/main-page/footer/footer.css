@@ -42,4 +42,5 @@
     color: black;
     cursor: pointer;
     background-color: #efefef;
+    transition: .2s ease;
   }

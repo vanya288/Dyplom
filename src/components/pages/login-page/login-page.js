@@ -1,16 +1,19 @@
 import React from 'react';
 
 import Header from '../../shared-components/header';
+import LoginForm from './login-form';
 
 const LoginPage = () => {
 
   const navItems = [
-    {label: 'Home'},
-    {label: 'Registration'}
+
   ];
 
   return (
-    <Header navItems = { navItems }/>
+    <React.Fragment>
+      <Header navItems = { navItems }/>
+      <LoginForm />
+    </React.Fragment>
   );
 }
 export default LoginPage;

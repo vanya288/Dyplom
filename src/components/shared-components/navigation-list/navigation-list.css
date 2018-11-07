@@ -95,8 +95,10 @@
   border: 0.05rem solid black;
   font-size: 1.2rem;
   font-weight: 700;
+
 }
 
 .navigation-list .button:hover {
   color: black;
-  background-color: white; }
+  background-color: white;
+  transition: .2s ease; }
