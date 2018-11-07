@@ -1,15 +1,15 @@
 import React from 'react';
 
 import Header from '../../shared-components/header';
-import LoginForm from './login-form';
+import RegistrationForm from './registration-form';
 
-const LoginPage = () => {
+const RegistrationPage = () => {
 
   return (
     <React.Fragment>
       <Header/>
-      <LoginForm />
+      <RegistrationForm />
     </React.Fragment>
   );
 }
-export default LoginPage;
+export default RegistrationPage;

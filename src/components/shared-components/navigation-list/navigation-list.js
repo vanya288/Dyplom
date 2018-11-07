@@ -3,7 +3,7 @@ import React from 'react';
 import './navigation-list.css';
 import NavigationListItem from '../navigation-list-item';
 
-const NavigationList = ({ navItems }) => {
+const NavigationList = ({ navItems = [] }) => {
 
   return (
     <div className="navigation-list">

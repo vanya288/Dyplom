@@ -19,3 +19,8 @@ html, body, #root {
   text-align: center;
   background-color: white;
 }
+
+.switch{
+  position: absolute;
+  width: 1rem;
+}

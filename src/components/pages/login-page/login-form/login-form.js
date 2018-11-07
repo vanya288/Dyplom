@@ -11,7 +11,7 @@ class LoginForm extends Component {
     return(
       <div className="form">
         <Paper className="paper-form" elevation={15}>
-          <span className="label">Log In</span>
+          <span className="label">Log in</span>
           <TextField
           className="input"
           label="Email"
@@ -27,10 +27,10 @@ class LoginForm extends Component {
             type="password"
             value="passwordpass"
           />
-        <div className="buttons">
-          <Button className="button">Log in</Button>
-          <Button className="button">Sign up</Button>
-        </div>
+          <div className="buttons">
+            <Button className="button">Log in</Button>
+            <a href="localhost:3000">Don't have one?</a>
+          </div>
 
         </Paper>
       </div>
